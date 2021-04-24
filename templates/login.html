@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h1 class=".back">Аварийный доступ</h1>
+<h1 class="back">Аварийный доступ</h1>
 <form action="" method="post" novalidate>
     {{ form.hidden_tag() }}
     <p>
@@ -43,8 +43,6 @@
     </div>
     {% endfor %}
     </p>
-
-
     <p>{{ form.submit(type="submit", class="btn btn-primary") }}</p>
 </form>
 {% endblock %}
